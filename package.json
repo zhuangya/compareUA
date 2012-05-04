@@ -1,0 +1,11 @@
+{
+    "name": "compareUA"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "express": "2.5.4"
+    , "redis": ">=0.7.2"
+    , "jade": ">= 0.0.1"
+    , "uuid-pure": ">=1.0.10"
+  }
+}

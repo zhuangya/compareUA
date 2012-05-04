@@ -1,0 +1,15 @@
+title= title
+if oldUa
+    p saved ua: 
+    p #{oldUa}
+    p your ua: 
+    p #{ua}
+else
+    p address invalid
+    p redirecting...
+    script(type="text/javascript")
+        setTimeout(function() {
+            document.location.href="/"
+        }, 3000);
+
+a.home(href="/") home
